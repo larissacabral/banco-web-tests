@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
-    "cy:headed": "cypress run - - headed"
+    "test": "cypress run"
   },
   "keywords": [],
   "author": "",
