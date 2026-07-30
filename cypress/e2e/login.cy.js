@@ -1,7 +1,11 @@
+const cypress = require("cypress")
+
 describe('login', () => {
   beforeEach(() => {
     //arrange
-    cy.visit('http://localhost:4000')
+    //variavel
+    cy.visit(cypress.env('URL'))
+
     //cy.screenshot('apos-visitar-site')
   })
   it('Login com dados validos deve permitir entrada no sistema', () => {
